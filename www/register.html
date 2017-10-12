@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		        
+		<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		
+	</head>
+
+	<body>
+        <div id="container">
+						<form action="javascript:submitRegister()">
+								<input type="text" id="username" name="username" placeholder="New User" value="">
+								<input type="password" id="password" name="password" placeholder="Password" value="">
+								<input type="text" id="license_plate" name="license_plate" placeholder="License plate (ABC-123)" value="">
+								<input type="submit" value="Register" id="register-button">
+						</form>
+						<span id="register-errorLabel"></span>
+				</div>
+    </body>
+</html>
